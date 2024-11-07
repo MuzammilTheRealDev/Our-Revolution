@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @apply transition-colors duration-100;
+}
+
+html, body{
+    background: #E7E4E5;
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.font{
+    font-family: 'PP Migra';
+    font-size: 8.7vw;
+    text-transform: uppercase;
+    word-spacing: -3px;
+}
+
+.line-one{
+    margin-top: 15vh;
+}
+
+.line-two{
+    line-height: 10px;
+}
+
+.line-three{
+    font-family:'Sharp Grotesk Bold 25', sans-serif;
+    font-size: 8.6vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -.7vw;
+
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -50vw;
+    width: 50vw;
+    height: 100%;
+    background-color: #f0f0f0;
+    transition: right 0.3s ease; 
+}
+.sidebar.active {
+    right: 0;
+}
+
+.close a img{
+    height: 5vh !important;
+}
+
+.black{
+    will-change: none;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    z-index: 47;
+}
+
+

@@ -1,0 +1,12 @@
+.imagediv {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+}
+
+.imagediv img {
+    transform: translateY(100%) rotate(10deg);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
